@@ -81,9 +81,9 @@ const Home: NextPage = () => {
         <br /><br />
         
         <ConnectWallet
-          dropDownPosition={{
-          side: "bottom", // "top" | "bottom" | "left" | "right";
-          align: "end", // "start" | "center" | "end";
+          dropdownPosition={{
+          side: "right", // "top" | "bottom" | "left" | "right";
+          align: "center", // "start" | "center" | "end";
           }}
         />
        
