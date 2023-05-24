@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         <p className={styles.minting}> 
         <br /><br />
         
-        <ConnectWallet
+        <ConnectWallet btnTitle="Connect Wallet" className={styles.wallet}
           dropdownPosition={{
           side: "right", // "top" | "bottom" | "left" | "right";
           align: "start", // "start" | "center" | "end";
